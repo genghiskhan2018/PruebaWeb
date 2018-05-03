@@ -1,6 +1,6 @@
 body
 {
-    background-color: white;
+    background-color: olive;
 }
 p
 {
@@ -13,11 +13,8 @@ h1
     background-color: black;
     color: orange;
     text-align: center;
-}a
-{
-    padding: 16px;
 }
-#footer{
+#lista-contenido{
     border:1px solid #ccc;
     border-width:1px 0;
     list-style:none;
@@ -25,11 +22,36 @@ h1
     padding:0;
     text-align:center;
 }
-#footer li{
+#lista-contenido li{
     display:inline;
 }
-#footer a{
+#lista-contenido a{
     display:inline-block;
     padding:10px;
 }
-/*Prueba*/
+#lista-contenido label{
+    font-size: 20px;
+    color: orange;
+    display:list-item;
+    padding: 5px;
+    
+}
+div.regresar
+{
+    text-align: center;
+}
+div.regresar nav.menu
+{
+    display: inline;
+}
+a
+{
+    text-decoration: none;
+    color: orange;
+    font-size: 30px;
+}
+div.informacion 
+{
+    text-align: center;
+    background: black;
+}
